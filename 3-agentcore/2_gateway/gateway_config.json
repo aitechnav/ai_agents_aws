@@ -1,0 +1,26 @@
+{
+  "gateway_url": "https://lambdamcp-mmwdkgqvo1.gateway.bedrock-agentcore.us-east-1.amazonaws.com/mcp",
+  "gateway_id": "lambdamcp-mmwdkgqvo1",
+  "client_id": "40k3qla4r0k904lqmanjlqpu8u",
+  "client_secret": "kgh08ib47jte9bn2iindabgpeqikkhlqlp17vpqb00tp8c77p9t",
+  "cognito_info": {
+    "authorizer_config": {
+      "customJWTAuthorizer": {
+        "allowedClients": [
+          "40k3qla4r0k904lqmanjlqpu8u"
+        ],
+        "discoveryUrl": "https://cognito-idp.us-east-1.amazonaws.com/us-east-1_bbqmCTeHK/.well-known/openid-configuration"
+      }
+    },
+    "client_info": {
+      "client_id": "40k3qla4r0k904lqmanjlqpu8u",
+      "client_secret": "kgh08ib47jte9bn2iindabgpeqikkhlqlp17vpqb00tp8c77p9t",
+      "user_pool_id": "us-east-1_bbqmCTeHK",
+      "token_endpoint": "https://agentcore-24b3beb2.auth.us-east-1.amazoncognito.com/oauth2/token",
+      "scope": "LambdaAuthorizer/invoke",
+      "domain_prefix": "agentcore-24b3beb2"
+    }
+  },
+  "target_id": "IFEIP1WKMV",
+  "lambda_arn": "arn:aws:lambda:us-east-1:629057033187:function:test_lambda"
+}
