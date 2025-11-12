@@ -264,5 +264,5 @@ ai_agents_aws/
 
 ---
 
-**Maintainer**: [Anuj Kumar](https://github.com/aitechnav)  
+**Maintainer**: [Anuj Tyagi](https://github.com/tyagian)  
 **License**: MIT
